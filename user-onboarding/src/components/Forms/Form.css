@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: 'Open sans', Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-weight: bold;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-form-submit {
+  width: 70px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
